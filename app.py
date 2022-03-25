@@ -49,7 +49,7 @@ def main():
     
     
 
-    st.sidebar.image("static/confu.png", use_column_width=True)
+    st.sidebar.image("static/fig1.jpg", use_column_width=True)
     activites = ["About","Overall","Gender","Course","Section","Major","College"]
     choice =st.sidebar.selectbox("Select Activity",activites)
     def get_df(file):
