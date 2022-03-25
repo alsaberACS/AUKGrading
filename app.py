@@ -23,16 +23,16 @@ def main():
         with col1:
             st.image(image, width=70)
         with col2:
-            st.markdown('<h1 style="color: purple;">AUK Grades Distribution</h1>',
+            st.markdown('<h1 style="color: purple;">AUK Grades Distribution and Analysis System</h1>',
                            unsafe_allow_html=True)
             
     new_title1 = '<p style="font-family:sans-serif; color:Green; font-size: 20px;">Prepared By : </p>'
     st.markdown(new_title1, unsafe_allow_html=True)
-    new_title2 = '<p style="font-family:sans-serif; color:Blue; font-size: 15px;">➡ Dr. Ahmed R.Alsaber </p>'
+    new_title2 = '<p style="font-family:sans-serif; color:Blue; font-size: 15px;">➡ Dr. Ahmed R. Alsaber </p>'
     st.markdown(new_title2, unsafe_allow_html=True)
     new_title3 = '<p style="font-family:sans-serif; color:purple; font-size: 14px;">   Lecturer at College of Business And Economics (CBE) </p>'
     st.markdown(new_title3, unsafe_allow_html=True)
-    new_title4 = '<p style="font-family:sans-serif; color:purple; font-size: 14px;"> American University of Kuwait  <a  href=" mailto: aalsaber@auk.edu.kw"> Email </a> </p> '
+    new_title4 = '<p style="font-family:sans-serif; color:purple; font-size: 14px;"> The American University of Kuwait (AUK) <a  href=" mailto: aalsaber@auk.edu.kw"> Email </a> </p> '
     st.markdown(new_title4, unsafe_allow_html=True)
     st.text('------------------------------------------------------------------------------------------------------------------------------')
     
